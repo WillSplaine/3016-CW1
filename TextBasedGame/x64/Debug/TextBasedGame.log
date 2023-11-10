@@ -1,0 +1,3 @@
+﻿  TextBasedGame.cpp
+S:\3rd Year CW\Comp3016\CW1\3016-CW1\TextBasedGame\TextBasedGame.cpp(6,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  TextBasedGame.vcxproj -> S:\3rd Year CW\Comp3016\CW1\3016-CW1\TextBasedGame\x64\Debug\TextBasedGame.exe
