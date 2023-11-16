@@ -85,15 +85,14 @@ void Character::printStats() const
 	std::cout << "= Experience:  " << this->exp << std::endl;
 	std::cout << "= Experience to Next Level:  " << this->expNext << std::endl;
 	std::cout << std::endl;
-	//	std::setw(10) <<std::setfill('=') <<
-		
+	
 	std::cout << "= Strength:  " << this->strength << std::endl;
 	std::cout << "= Vitality:  " << this->vitality << std::endl;
 	std::cout << "= Dexterity:  " << this->dexterity << std::endl;
 	std::cout << "= Intelligence:  " << this->intelligence << std::endl;
 	std::cout << "= Luck:  " << this->luck << std::endl;
 	std::cout << std::endl;
-	//	std::setw(10) <<std::setfill('=') <<
+
 	std::cout << "= HP:  " << this->hp <<"/" << this->hpMax << std::endl;
 	std::cout << "= Stamina:  " << this->stamina << "/" << this->staminaMax << std::endl;
 	std::cout << "= Damage:  " << this->damageMin <<"-" << this->damageMax << std::endl;

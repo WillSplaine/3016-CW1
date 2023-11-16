@@ -467,9 +467,6 @@ void Game::enterCave()
 		playing = false;
 		break;
 	case 1:
-		guardianAttack();
-		break;
-	case 2:
 		guardianSpeech();
 		break;
 	default:
@@ -479,15 +476,23 @@ void Game::enterCave()
 }
 void Game::guardianSpeech() 
 {
-	std::cout << "You walk towards the Guardian, it slowly raises its head";
-	std::cout << "";
-	std::cout << "";
+	std::cout << "You walk towards the Guardian, it slowly raises its heads";
+	std::cout << "As you get closer it begins to growl";
+	std::cout << "The guardian stands up and prepares for a battle";
+	guardianAttack();
 
 }
 void Game::guardianAttack()
 {
+	std::cout << "You stand in preparation for a battle ";
+	std::cout << "As the guardian moves closer, it yelps in pain";
+	std::cout << "As you move closer you see, a large spear eminating a purple miasma sticking out of the creature's body";
+	std::cout << "You slowly scuffle your feet towards the beast, putting your hands up";
+	std::cout << "The beast looks at you and growls";
+	std::cout << "You start to stroke its fur to calm down the creature"; 
+	std::cout << "Its growls become fainter realizing you aren't trying to hurt it";
+	std::cout << "As you place your hand on the spear the guardian turns its heads in preparation of the pain";
+	std::cout << "You ripn out the spear as fast as possible to prevent the creature from being in pain for any longer"; 
+	std::cout << "The creatures body slumps to the floor instantaneously"; 
 	std::cout << "";
-	std::cout << "";
-	std::cout << "";
-
 }
