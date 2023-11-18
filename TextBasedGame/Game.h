@@ -36,7 +36,11 @@ public:
 	void enterCave();
 	void guardianSpeech();
 	void guardianAttack();
-
+	void pullSpear();
+	void healGuardian();
+	void waitGuardian();
+	void awaken();
+	void leaveCave();
 	//Accessors
 	inline bool getPlaying() const { return this->playing; }
 	inline bool getStarting() const { return this->adventureStarted; }
@@ -57,11 +61,17 @@ public:
 	//Path 3
 	int diceChoice;
 	int rerollChoice;
-
+	//
+	//Scene 1 - Scene 2 
+	int clearingContinue;
 	//Scene 2 
 	int clearChoice;
 	int interactChoice;
 	int guardianChoice;
+	int spearChoice;
+	int healChoice;
+	int guardianContinue;
+	int caveExit;
 	//Character 
 	Character character;
 

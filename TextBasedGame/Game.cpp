@@ -22,12 +22,23 @@ Game::Game()
 	diceChoice = 0;
 	rerollChoice = 0;
 	//
+	clearingContinue = 0;
+	//
 	clearChoice = 0;
 	//
 	interactChoice = 0;
 	//
 	guardianChoice = 0;
+	//
+	spearChoice = 0;
+	//
+	healChoice = 0;
+	//
+	guardianContinue = 0;
+	//
+	caveExit = 0;
 }
+
 
 Game::~Game()
 {
@@ -210,6 +221,28 @@ void Game::intelligenceChall(const std::string& playerRace)
 		if (playerAnswer2 == "tomorrow" || "Tomorrow") {
 			std::cout << "'Correct! Well Done, You have passed my trial go on from this path with my blessing'\n";
 			std::cout << "The Owl spreads it's wings and beckons you onwards\n";
+
+			std::cout << "0: Quit" << std::endl;
+			std::cout << "1: Continue" << std::endl;
+			std::cout << std::endl;
+
+			int clearingContinue;
+			std::cout << "Enter your Decision: ";
+			std::cin >> clearingContinue;
+			std::cout << std::endl;
+			switch (clearingContinue)
+			{
+			case 0:
+				playing = false;
+				break;
+			case 1:
+				vastClearing();
+				break;
+			default:
+				std::cout << "Invalid choice. You should continue on.\n";
+				break;
+			}
+
 		}
 		else {
 			std::cout << "'Incorrect!'";
@@ -265,6 +298,23 @@ void Game::climbRock() {
 
 	if (randomNumber > 2) {
 		std::cout << "Congratulations! You successfully climbed the tree. Path unblocked!\n";
+
+		int clearingContinue;
+		std::cout << "Enter your Decision: ";
+		std::cin >> clearingContinue;
+		std::cout << std::endl;
+		switch (clearingContinue)
+		{
+		case 0:
+			playing = false;
+			break;
+		case 1:
+			vastClearing();
+			break;
+		default:
+			std::cout << "Invalid choice. You should continue on.\n";
+			break;
+		}
 	}
 	else {
 		std::cout << "You couldn't hold on, losing your grip you fall to the beginning\n";
@@ -283,6 +333,23 @@ void Game::findWayAround()
 
 	if (randomNumber > 3) {
 		std::cout << "You successfully find a small, hidden path in some bushes\n";
+
+		int clearingContinue; 
+		std::cout << "Enter your Decision: ";
+		std::cin >> clearingContinue;
+		std::cout << std::endl;
+		switch (clearingContinue)
+		{
+		case 0:
+			playing = false;
+			break;
+		case 1:
+			vastClearing();
+			break;
+		default:
+			std::cout << "Invalid choice. You should continue on.\n";
+			break;
+		}
 	}
 	else {
 		std::cout << "You didn't find anything, you walk back to where you started searching\n";
@@ -334,6 +401,25 @@ void Game::roll()
 		std::cout << "The Leprechaun sighs and moves aside letting you pass him\n";
 		std::cout << "'A fluke!, its just a fluke  '";
 		std::cout << "cries the Leprechaun as he slumps in his chair\n";
+
+		int clearingContinue; 
+		std::cout << "Enter your Decision: ";
+		std::cin >> clearingContinue;
+		std::cout << std::endl;
+		switch (clearingContinue)
+		{
+		case 0:
+			playing = false;
+			break;
+		case 1:
+			vastClearing();
+			break;
+		default:
+			std::cout << "Invalid choice. You should continue on.\n";
+			break;
+		}
+
+
 	}
 	else {
 		std::cout << "'HAHA, I knew it, you aren't lucky like me'\n";
@@ -367,6 +453,8 @@ void Game::roll()
 	}
 	
 }
+
+
 void Game::vastClearing() 
 {
 	std::cout << "A Large Clearing" << std::endl << std::endl;
@@ -489,10 +577,154 @@ void Game::guardianAttack()
 	std::cout << "As you move closer you see, a large spear eminating a purple miasma sticking out of the creature's body";
 	std::cout << "You slowly scuffle your feet towards the beast, putting your hands up";
 	std::cout << "The beast looks at you and growls";
-	std::cout << "You start to stroke its fur to calm down the creature"; 
+	std::cout << "You start to stroke its fur to calm down the creature";
 	std::cout << "Its growls become fainter realizing you aren't trying to hurt it";
-	std::cout << "As you place your hand on the spear the guardian turns its heads in preparation of the pain";
-	std::cout << "You ripn out the spear as fast as possible to prevent the creature from being in pain for any longer"; 
-	std::cout << "The creatures body slumps to the floor instantaneously"; 
-	std::cout << "";
+
+	std::cout << "0: Quit" << std::endl;
+	std::cout << "1: Help the Guardian" << std::endl;
+	std::cout << std::endl;
+
+	int spearChoice; 
+	std::cout << "Enter your Decision: ";
+	std::cin >> spearChoice;
+	std::cout << std::endl;
+	switch (spearChoice)
+	{
+	case 0:
+		playing = false;
+		break;
+	case 1:
+		pullSpear();
+		break;
+	default:
+		std::cout << "Invalid choice. The Guardian turns one of its heads to look at you in anticipation.\n";
+		break;
+	}
+}
+
+void Game::pullSpear()
+{
+		std::cout << "As you place your hand on the spear the guardian turns its heads in preparation of the pain";
+		std::cout << "You rip out the spear as fast as possible to prevent the creature from being in pain for any longer";
+		std::cout << "The creatures body slumps to the floor instantaneously";
+		std::cout << "The creature's head lands beside you";
+
+		std::cout << "0: Quit" << std::endl;
+		std::cout << "1: Heal the Guardian" << std::endl;
+		std::cout << "2: Wait for the Guardian to wake up" << std::endl;
+		std::cout << std::endl;
+
+		int spearChoice;
+		std::cout << "Enter your Decision: ";
+		std::cin >> spearChoice;
+		std::cout << std::endl;
+		switch (spearChoice)
+		{
+		case 0:
+			playing = false;
+			break;
+		case 1:
+			healGuardian();
+			break;
+		case 2:
+			waitGuardian();
+			break;
+		default:
+			std::cout << "Invalid choice. The Guardian turns one of its heads to look at you in anticipation.\n";
+			break;
+		}
+}
+void Game::healGuardian()
+{
+	std::cout << "You place your hand upon the open wound of the Guardian";
+	std::cout << "You begin pouring your mana into the beast to begin the healing process";
+	std::cout << "Your mana being taken you feel your body getting weak";
+	std::cout << "The Ox comes to your side and lends you his mana";
+	std::cout << "The wound starts to shrink and eventually closes up";
+	std::cout << "The Ox and yourself both fall to the floor being sucked off almost all of your mana";
+	std::cout << "The Guardian's breathing seems to become more peaceful";
+
+	std::cout << "0: Quit" << std::endl;
+	std::cout << "1: Continue" << std::endl;
+	std::cout << std::endl;
+
+	int guardianContinue; 
+	std::cout << "Enter your Decision: ";
+	std::cin >> guardianContinue;
+	std::cout << std::endl;
+	switch (guardianContinue)
+	{
+	case 0:
+		playing = false;
+		break;
+	case 1:
+		awaken();
+		break;
+	default:
+		std::cout << "Invalid choice. The Guardian remains unconcious.\n";
+		break;
+	}
+}
+void Game::waitGuardian()
+{
+	std::cout << "You sit beside the guardian giving it time to rest";
+	std::cout << "The Ox sits beside you awaiting the guardian to regain its strength ";
+
+	std::cout << "0: Quit" << std::endl;
+	std::cout << "1: Continue" << std::endl;
+	std::cout << std::endl;
+
+	int guardianContinue; 
+	std::cout << "Enter your Decision: ";
+	std::cin >> guardianContinue;
+	std::cout << std::endl;
+	switch (guardianContinue)
+	{
+	case 0:
+		playing = false;
+		break;
+	case 1:
+		awaken();
+		break;
+	default:
+		std::cout << "Invalid choice. The Guardian remains unconcious.\n";
+		break;
+	}
+
+}
+void Game::awaken() 
+{
+	std::cout << "When the Guardian awakes the creature looks at its surroundings.";
+	std::cout << "The creature then sees the scar where the spear was";
+	std::cout << "The guardian looks towards your and bows it head in appreciation";
+	std::cout << "As you stand up, the Guardian follows you";
+	
+	std::cout << "0: Quit" << std::endl;
+	std::cout << "1: Exit the Cave" << std::endl;
+	std::cout << std::endl;
+
+	int caveExit;
+	std::cout << "Enter your Decision: ";
+	std::cin >> caveExit;
+	std::cout << std::endl;
+	switch (caveExit)
+	{
+	case 0:
+		playing = false;
+		break;
+	case 1:
+		leaveCave();
+		break;
+	default:
+		std::cout << "Invalid choice. The Guardian remains by your side.\n";
+		break;
+	}
+}
+void Game::leaveCave() 
+{
+	std::cout << "As you exit the cave, the forest has began to be corrupt outwards from the lake ";
+	std::cout << "The creature bends down infront of the lake and starts to chant";
+	std::cout << "The lake starts to ripple outwards from the guardian";
+	std::cout << "The water becomes clearer until the water is completely clear";
+
 }
