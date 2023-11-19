@@ -41,6 +41,9 @@ public:
 	void waitGuardian();
 	void awaken();
 	void leaveCave();
+	void finalWords(const std::string& playerRace);
+
+
 	//Accessors
 	inline bool getPlaying() const { return this->playing; }
 	inline bool getStarting() const { return this->adventureStarted; }
@@ -72,6 +75,8 @@ public:
 	int healChoice;
 	int guardianContinue;
 	int caveExit;
+	int finalWordsChoice;
+	int gameEnd;
 	//Character 
 	Character character;
 

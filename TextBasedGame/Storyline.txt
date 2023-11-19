@@ -1,0 +1,290 @@
+Enter Player's Name:
+Enter Player's Race:
+
+Main Menu
+
+0: Quit
+1: Begin Adventure
+2: Character Stats
+
+Choice:
+Invalid choice. Please read through the options and try again
+
+The First Adventure
+
+You find yourself standing at the edge of a mysterious forest.
+The air is thick with magic, and the trees seem to whisper secrets.
+A voice echoes in your mind, "Welcome, brave traveler, to the Enchanted Forest.
+Your destiny awaits. Will you dare to explore?"
+
+0: Quit
+1: Explore Deeper
+2: Take a Nap
+	
+Enter your choice:
+
+You choose to rest under a magical tree. The soothing energy rejuvenates your spirit.
+Invalid choice. The forest seems to ignore your indecision and awaits your next move.
+
+The Crossroad Challenges
+
+As you venture deeper, you stumble upon a crossroad with three paths
+At the end of the first path, you can see a mighty owl with spectactles upon it's beak
+At the end of the second path a scalable rockface blocks your view
+In the middle of the final path, a Leprechaun dances and sings
+
+
+0: Quit
+1: Take the First Path
+2: Take the Second Path
+3: Take the Third Path
+
+Enter your Decision: 
+
+
+The Intelligence Challenge
+"Hello there 
+."
+"I am the might Owl that protects this path"
+"To proceed down this path, you must answer my riddles"
+"Show me your intelligence
+."
+
+"First Riddle: The more you take, the more you leave behind. What am I?"
+"The answer is ..."
+
+"Correct! Well Done"
+		
+"Second Riddle: I always come, but never today. What am I?"
+"The answer is ..."
+
+"Correct! Well Done, You have passed my trial go on from this path with my blessing"
+The Owl spreads it's wings and beckons you onwards
+
+0: Quit
+1: Continue
+
+Enter your Decision:
+
+Invalid choice. You should continue on
+
+"Incorrect!"
+The Owl pecks you due to your stupidity
+
+The Strength Challenge
+
+Welcome to the Path of Strength!
+A massive rockface blocks your way.
+A voice challenges you, "Prove your strength."
+
+0. Quit
+1. Scale the rockface
+2. Find a way around
+
+Enter your Decision:
+
+
+You start climbing the tree...
+Congratulations! You successfully climbed the rockface.The path is now unblocked!
+
+0. Quit
+1. Continue
+
+Enter your Descision:
+
+Invalid choice. You should continue on.
+
+You couldn't hold on, losing your grip you fall to the beginning
+
+
+You decide to look around the rockface for other ways to pass this challenge
+
+You successfully find a small, hidden path in some bushes
+
+0. Quit
+1. Continue
+
+
+Enter your Descision:
+
+You didn't find anything, you walk back to where you started searching
+
+The Luck Challenge
+
+"Hello there " 
+"
+"I am the Lucky Leprechaun
+"To proceed down this path, you must beat me in a game of luck!"
+"Roll a number above 2 and you may pass"
+
+0. Quit
+1. Roll the dice
+
+Enter your Decision:
+
+Invalid choice. The Leprechaun giggles in anticipation.
+
+You rolled a 
+.		
+The Leprechaun cries and moves aside letting you pass him
+"A fluke!, its just a fluke" cries the Leprechaun as he slumps in his chair	
+
+0. Quit
+1. Continue
+
+Enter your Decision:
+
+HAHA, I knew it, you aren't lucky like me"
+"I am the lucky Leprechaun and I never lose"
+"Try Again, but don't expect a different outcome"
+The Leprechaun sneers and dances in glee"
+				
+0. Quit
+1. Reroll the dice
+
+Enter your Decision:
+
+A Large Clearing
+
+
+After completing the previous trial you find yourself in a vast clearing"
+As you wander further into the clearing, a large Golden Ox approaches
+The creature stays a distance, awaiting you to approach
+As you look around you see a bench overlooking a lake that shimmers in the sunlight
+
+0: Quit
+1: Walk toward the Ox
+2: Rest on the bench
+	
+Enter your choice:
+
+You choose to rest on the bench. The soothing energy rejuvenates your spirit.
+Invalid choice. The Clearing is silent in wait of your decision
+
+You walk toward the Ox and it bows its head allowing you to place your hand on its horns
+"Follow me" you hear in your head
+You follow the beast and it leads you through a meadow, a valley and then to what looks to be a cave opening
+
+0: Quit
+1: Enter the Cave
+	
+Enter your choice:
+
+Invalid choice. The Ox awaits your next move.
+
+As you enter the cave the atmosphere changed dramatically
+You see a large three headed dog asleep blocking a hole that exits the cave \n";
+"That is the guardian of this Forest" the Ox explains
+"The Forest has been attacked but the guardian has not intervened"
+"Please awaken the guardian and bring him back to how he once was"
+The Ox slowly backs away making sure to be quiet so not to wake the gargantuan creature
+
+0: Quit
+1: Fight the Guardian
+
+	
+Enter your choice: 
+
+Invalid choice. The Guardian's snores grow fainter.
+
+You walk towards the Guardian, it slowly raises its heads
+As you get closer it begins to growl
+The guardian stands up and prepares for a battle
+
+
+You stand in preparation for a battle
+As the guardian moves closer, it yelps in pain
+As you move closer you see, a large spear eminating a purple miasma sticking out of the creature's body
+You slowly scuffle your feet towards the beast, putting your hands up
+The beast looks at you and growls
+You start to stroke its fur to calm down the creature
+Its growls become fainter realizing you aren't trying to hurt it
+
+0: Quit
+1: Help the Guardian
+
+Enter your Decision: 
+Invalid choice. The Guardian turns one of its heads to look at you in anticipation.
+
+As you place your hand on the spear the guardian turns its heads in preparation of the pain
+You rip out the spear as fast as possible to prevent the creature from being in pain for any longer
+The creatures body slumps to the floor instantaneously
+The creature's head lands beside you
+
+0: Quit
+1: Heal the Guardian
+2: Wait for the Guardian to wake up
+		
+Enter your Decision:
+
+Invalid choice. The Guardian turns one of its heads to look at you in anticipation.
+
+You place your hand upon the open wound of the Guardian
+You begin pouring your mana into the beast to begin the healing process
+Your mana being taken you feel your body getting weak
+The Ox comes to your side and lends you his mana
+The wound starts to shrink and eventually closes up
+The Ox and yourself both fall to the floor being sucked off almost all of your mana
+The Guardian's breathing seems to become more peaceful
+
+0: Quit
+1: Continue
+
+Enter your Decision:
+
+You sit beside the guardian giving it time to rest
+The Ox sits beside you awaiting the guardian to regain its strength 
+
+0: Quit
+1: Continue
+
+Enter your Decision: 
+
+Invalid choice. The Guardian remains unconcious.
+
+When the Guardian awakes the creature looks at its surroundings.
+The creature then sees the scar where the spear was
+The guardian looks towards your and bows it head in appreciation
+As you stand up, the Guardian follows you
+	
+0: Quit
+1: Exit the Cave
+
+Enter your Decision: 
+		
+Invalid choice. The Guardian remains by your side.
+
+As you exit the cave, the forest has began to be corrupt outwards from the lake 
+The Guardian bends down infront of the lake and starts to chant
+The lake starts to ripple outwards from the guardian
+The water becomes clearer until the water is completely clear
+
+0: Quit
+1: Speak to the Ox and Guardian
+
+Enter your Decision: 
+	
+	Invalid choice. The lake seems peaceful
+	
+You walk towards the Ox and the Guardian
+
+
+The Guardian bows out of respect and gives you a small amuleut
+"This amulet recognises you as a friend to the forest, at any point you enter the forest show them this"
+You begin to walk away from the forest, as you look back the Guardian and Ox look at you, waving you off
+
+You have finished this game playthrough. I hope you had fun.
+Maybe you should go back and play a different way
+
+
+0: Quit
+	
+Enter your Decision: 
+
+	
+Invalid choice. The game is now over ;(
+		
+	
+
+
+	
