@@ -39,7 +39,7 @@
 
 ### Links
 
-[Github Repo](https://github.com/WillSplaine/3016-CW1).
+[Github Repo](https://github.com/WillSplaine/3016-CW1)
 
 [Demonstration](https://youtu.be/Y1FZc3RjhWc)
 
