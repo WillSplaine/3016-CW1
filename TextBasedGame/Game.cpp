@@ -165,8 +165,8 @@ void Game::beginAdventure()
 		xRoads();
 		break;
 	case 2:
-		std::cout << "You choose to rest under a magical tree. The soothing energy rejuvenates your spirit.\n";
 		system("CLS");
+		std::cout << "You choose to rest under a magical tree. The soothing energy rejuvenates your spirit.\n";
 		beginAdventure();
 		break;
 	default:

@@ -47,8 +47,8 @@ The Intelligence Challenge
 ."
 "I am the might Owl that protects this path"
 "To proceed down this path, you must answer my riddles"
-"Show me your intelligence
-."
+"Show me your intelligence"
+
 
 "First Riddle: The more you take, the more you leave behind. What am I?"
 "The answer is ..."
@@ -112,7 +112,7 @@ You didn't find anything, you walk back to where you started searching
 The Luck Challenge
 
 "Hello there " 
-"
+
 "I am the Lucky Leprechaun
 "To proceed down this path, you must beat me in a game of luck!"
 "Roll a number above 2 and you may pass"
@@ -125,7 +125,7 @@ Enter your Decision:
 Invalid choice. The Leprechaun giggles in anticipation.
 
 You rolled a 
-.		
+	
 The Leprechaun cries and moves aside letting you pass him
 "A fluke!, its just a fluke" cries the Leprechaun as he slumps in his chair	
 
@@ -173,7 +173,7 @@ Enter your choice:
 Invalid choice. The Ox awaits your next move.
 
 As you enter the cave the atmosphere changed dramatically
-You see a large three headed dog asleep blocking a hole that exits the cave \n";
+You see a large three headed dog asleep blocking a hole that exits the cave
 "That is the guardian of this Forest" the Ox explains
 "The Forest has been attacked but the guardian has not intervened"
 "Please awaken the guardian and bring him back to how he once was"
