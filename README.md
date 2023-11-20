@@ -1,14 +1,14 @@
-# Whispers of The Forest
+# **Whispers of The Forest**
 
-## CPP Game – Text based Story Adventure RPG
+## **CPP Game – Text based Story Adventure RPG**
 
-### Test Specs
+### **Test Specs**
 
 ##### Operating System: Windows 11 Pro, version 22H2, Build 22621.2715
 
 ##### Visual Studios: 2022 Version 143, Windows SDK 10.0, 64x
 
-### Comp 3016 - 30% Subsmission
+### **Comp 3016 - 30% Subsmission**
 
 ##### In 'Whispers of The Forest,' players embark on a captivating journey as 
 ##### they step into the shoes of a brave traveler drawn to the mystical  
@@ -18,12 +18,12 @@
 ##### enchanted realm and unravel their destiny in a world brimming with
 ##### wonder, danger, and untold mysteries."
 
-### How to Play
+### **How to Play**
 
 ##### Download the repository, open x64 - Debug and the run the .ex. 
 ##### Otherwise, if previously built run the exe from within the folder
 
-#### Interact with the Game
+#### **Interact with the Game**
 
 ##### In this game all interactions can be done either by 0, 1, 2 or 3 on the keyboard
 ##### Or if text is needed to be input via the keyboard#
@@ -32,6 +32,6 @@
 ##### be a key in the top right giving th options the player can choose from. Else the player can input via the keyboard 
 
 
-### Unique Selling Point
+### **Unique Selling Point**
 
 ##### In 'Whispers of The Forest' the player can make 
