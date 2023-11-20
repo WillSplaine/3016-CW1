@@ -34,4 +34,13 @@
 
 ### **Unique Selling Point**
 
-##### In 'Whispers of The Forest' the player can make 
+##### In 'Whispers of The Forest' the player can experience the playthrough in different ways depending on their luck, intelligence and the choices they make.
+##### The Player can choose anyway to play they want as the options are all interchangeable.
+
+### Links
+
+[Github Repo](https://github.com/WillSplaine/3016-CW1).
+
+[Demonstration](https://youtu.be/Y1FZc3RjhWc)
+
+
