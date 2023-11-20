@@ -47,3 +47,8 @@
 
 ![Screenshot](UMLFIN.png)
 
+
+### Exemption Handling 
+
+##### In my game the exemptions are handled internally through the switch cases. They only allow the cases or if the player response isn't a case option it will reply with the default. 
+##### This usually says "Invalid Choice..."
